@@ -1,0 +1,31 @@
+The first original tree is: 
+  Leaves: [{L01} 4.5, {L02} 2.9, {L03} 4.9, {L04} 4.6, {L05} 7.4, {L06} 5, {L07} 5, {L08} 4.5];
+  Edges: [{L01,L02|L03,L04,L05,L06,L07,L08} 7.8, {L01,L02,L03|L04,L05,L06,L07,L08} 5.9, {L05,L06|L01,L02,L03,L04,L07,L08} 5.6, {L04,L05,L06|L01,L02,L03,L07,L08} 3.9, {L01,L02,L03,L04,L05,L06|L07,L08} 6.1];
+The second original tree is: 
+  Leaves: [{L03} 5.1, {L04} 5.1, {L05} 4.7, {L07} 8.9, {L08} 4.2, {L09} 6.2, {L10} 5];
+  Edges: [{L04,L09|L03,L05,L07,L08,L10} 5, {L04,L05,L09|L03,L07,L08,L10} 3.9, {L03,L04,L05,L09|L07,L08,L10} 6.3, {L03,L04,L05,L07,L09|L08,L10} 4.4];
+The complete leaf set is: [L01, L02, L03, L04, L05, L06, L07, L08, L09, L10]
+ 
+
+ The Running Time is 3016875 mili-seconds, which is: 0:00:50:16:875 
+The number of orthant pairs is 418275
+The mean number of iterations is 7.326844779152458
+The distance found is 9.458858282054976
+A total of 1 tree pairs achieved this distance. 
+ This are: 
+ 
+
+ ---------- 
+For orthant pair (166, 1600) the trees are 
+
+ T'_1:  Leaves: [{L01} 4.5, {L02} 2.9, {L03} 4.9, {L04} 2.35, {L05} 7.4, {L06} 5, {L07} 5, {L08} 2.15, {L09} 6.2, {L10} 5];
+  Edges: [{L01,L02|L03,L04,L05,L06,L07,L08,L09,L10} 7.8, {L01,L02,L03|L04,L05,L06,L07,L08,L09,L10} 5.9, {L05,L06|L01,L02,L03,L04,L07,L08,L09,L10} 5.6, {L04,L05,L06,L09|L01,L02,L03,L07,L08,L10} 3.9, {L01,L02,L03,L04,L05,L06,L09|L07,L08,L10} 6.1, {L04,L09|L01,L02,L03,L05,L06,L07,L08,L10} 2.25, {L01,L02,L03,L04,L05,L06,L07,L09|L08,L10} 2.35];
+
+ T'_2:  Leaves: [{L01} 4.5, {L02} 2.9, {L03} 2.0499999999, {L04} 5.1, {L05} 3.2500000001, {L06} 5, {L07} 8.9, {L08} 4.2, {L09} 6.2, {L10} 5];
+  Edges: [{L04,L09|L01,L02,L03,L05,L06,L07,L08,L10} 5, {L04,L05,L06,L09|L01,L02,L03,L07,L08,L10} 3.9, {L01,L02,L03,L04,L05,L06,L09|L07,L08,L10} 6.3, {L01,L02,L03,L04,L05,L06,L07,L09|L08,L10} 4.4, {L01,L02,L03|L04,L05,L06,L07,L08,L09,L10} 3.0500000001, {L05,L06|L01,L02,L03,L04,L07,L08,L09,L10} 1.4499999999, {L01,L02|L03,L04,L05,L06,L07,L08,L09,L10} 7.8];
+ 
+
+ ---------- 
+
+ 
+ WARNINGS PRODUCED BY CODE: 

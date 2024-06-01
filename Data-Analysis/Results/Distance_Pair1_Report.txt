@@ -1,0 +1,41 @@
+The first original tree is: 
+  Leaves: [{B} 4.02367, {C} 0.43157, {D} 4.38332, {E} 2.34093, {F} 5.02363, {G} 1.62213, {H} 1.99653];
+  Edges: [{B,D,E,F,G|C,H} 1.200902, {B,F|C,D,E,G,H} 0.46246, {E,G|B,C,D,F,H} 1.31758, {B,E,F,G|C,D,H} 0.0665063];
+The second original tree is: 
+  Leaves: [{A} 1.704916, {B} 2.21918, {C} 0.837326, {D} 1.15289, {F} 1.47674, {H} 1.21905, {I} 1.81664, {J} 1.46539];
+  Edges: [{D,F|A,B,C,H,I,J} 0.11799, {C,H|A,B,D,F,I,J} 0.438612, {C,D,F,H|A,B,I,J} 0.447978, {B,C,D,F,H|A,I,J} 0.064471, {A,B,C,D,F,H|I,J} 0.800713];
+The complete leaf set is: [A, B, C, D, E, F, G, H, I, J]
+ 
+
+ The Running Time is 1268563 mili-seconds, which is: 0:00:21:08:563 
+The number of orthant pairs is 418275
+The mean number of iterations is 7.192947223716218
+The distance found is 4.233749130096056
+A total of 2 tree pairs achieved this distance. 
+ This are: 
+ 
+
+ ---------- 
+For orthant pair (1254, 74) the trees are 
+
+ T'_1:  Leaves: [{A} 1.704916, {B} 4.02367, {C} 0.43157, {D} 2.8941602641, {E} 2.34093, {F} 2.9994287033, {G} 1.62213, {H} 1.99653, {I} 1.81664, {J} 1.46539];
+  Edges: [{C,H|A,B,D,E,F,G,I,J} 1.200902, {A,C,D,E,G,H|B,F,I,J} 0.46246, {E,G|A,B,C,D,F,H,I,J} 1.31758, {A,C,D,H|B,E,F,G,I,J} 0.0665063, {A,D|B,C,E,F,G,H,I,J} 1.4891597359, {A,B,C,D,E,G,H,I|F,J} 0.7219757023, {A,B,C,D,E,G,H|F,I,J} 1.3022255944];
+
+ T'_2:  Leaves: [{A} 1.704916, {B} 2.21918, {C} 0.837326, {D} 1.15289, {E} 2.34093, {F} 1.47674, {G} 1.62213, {H} 1.21905, {I} 1.81664, {J} 1.46539];
+  Edges: [{D,F|A,B,C,E,G,H,I,J} 0.11799, {C,H|A,B,D,E,F,G,I,J} 0.438612, {C,D,F,H|A,B,E,G,I,J} 0.223989, {C,D,E,F,G,H|A,B,I,J} 0.223989, {B,C,D,E,F,G,H|A,I,J} 0.064471, {A,B,C,D,E,F,G,H|I,J} 0.800713, {E,G|A,B,C,D,F,H,I,J} 1.31758];
+ 
+
+ ---------- 
+For orthant pair (1981, 74) the trees are 
+
+ T'_1:  Leaves: [{A} 1.704916, {B} 4.02367, {C} 0.43157, {D} 2.8941602641, {E} 2.34093, {F} 2.9994287033, {G} 1.62213, {H} 1.99653, {I} 1.81664, {J} 1.46539];
+  Edges: [{C,H|A,B,D,E,F,G,I,J} 1.200902, {A,C,D,E,G,H|B,F,I,J} 0.46246, {E,G|A,B,C,D,F,H,I,J} 1.31758, {A,C,D,H|B,E,F,G,I,J} 0.0665063, {A,D|B,C,E,F,G,H,I,J} 1.4891597359, {F,I|A,B,C,D,E,G,H,J} 0.7219757023, {A,B,C,D,E,G,H|F,I,J} 1.3022255944];
+
+ T'_2:  Leaves: [{A} 1.704916, {B} 2.21918, {C} 0.837326, {D} 1.15289, {E} 2.34093, {F} 1.47674, {G} 1.62213, {H} 1.21905, {I} 1.81664, {J} 1.46539];
+  Edges: [{D,F|A,B,C,E,G,H,I,J} 0.11799, {C,H|A,B,D,E,F,G,I,J} 0.438612, {C,D,F,H|A,B,E,G,I,J} 0.223989, {C,D,E,F,G,H|A,B,I,J} 0.223989, {B,C,D,E,F,G,H|A,I,J} 0.064471, {A,B,C,D,E,F,G,H|I,J} 0.800713, {E,G|A,B,C,D,F,H,I,J} 1.31758];
+ 
+
+ ---------- 
+
+ 
+ WARNINGS PRODUCED BY CODE: 

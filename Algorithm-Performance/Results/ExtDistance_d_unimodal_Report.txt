@@ -1,0 +1,31 @@
+The first original tree is: 
+  Leaves: [{L01} 4.2, {L02} 6.5, {L03} 3.6, {L04} 5.5, {L05} 5.1, {L06} 6.8, {L07} 5.2, {L08} 5.1, {L09} 3.7];
+  Edges: [{L01,L02|L03,L04,L05,L06,L07,L08,L09} 4.8, {L01,L02,L03|L04,L05,L06,L07,L08,L09} 3.7, {L01,L02,L03,L04|L05,L06,L07,L08,L09} 4.3, {L06,L07|L01,L02,L03,L04,L05,L08,L09} 4.2, {L06,L07,L08|L01,L02,L03,L04,L05,L09} 5.1, {L01,L02,L03,L04,L06,L07,L08|L05,L09} 6];
+The second original tree is: 
+  Leaves: [{L01} 4.9, {L02} 4.5, {L03} 5, {L05} 5.4, {L06} 5, {L07} 6.5, {L09} 5.2, {L10} 3.8];
+  Edges: [{L01,L05|L02,L03,L06,L07,L09,L10} 5.7, {L02,L03|L01,L05,L06,L07,L09,L10} 5.2, {L01,L02,L03,L05|L06,L07,L09,L10} 3.9, {L06,L07|L01,L02,L03,L05,L09,L10} 4.6, {L01,L02,L03,L05,L06,L07|L09,L10} 5.9];
+The complete leaf set is: [L01, L02, L03, L04, L05, L06, L07, L08, L09, L10]
+ 
+
+ The Running Time is 9519 mili-seconds, which is: 0:00:00:09:519 
+The number of orthant pairs is 2925
+The mean number of iterations is 3.960341880341869
+The distance found is 18.497288811343534
+A total of 1 tree pairs achieved this distance. 
+ This are: 
+ 
+
+ ---------- 
+For orthant pair (11, 19) the trees are 
+
+ T'_1:  Leaves: [{L01} 4.2, {L02} 6.5, {L03} 3.6, {L04} 5.5, {L05} 5.1, {L06} 6.8, {L07} 5.2, {L08} 5.1, {L09} 1.5, {L10} 3.8];
+  Edges: [{L01,L02|L03,L04,L05,L06,L07,L08,L09,L10} 4.8, {L01,L02,L03|L04,L05,L06,L07,L08,L09,L10} 3.7, {L01,L02,L03,L04|L05,L06,L07,L08,L09,L10} 4.3, {L06,L07|L01,L02,L03,L04,L05,L08,L09,L10} 4.2, {L06,L07,L08|L01,L02,L03,L04,L05,L09,L10} 5.1, {L01,L02,L03,L04,L06,L07,L08|L05,L09,L10} 6, {L01,L02,L03,L04,L05,L06,L07,L08|L09,L10} 2.2];
+
+ T'_2:  Leaves: [{L01} 4.9, {L02} 4.5, {L03} 5, {L04} 5.5, {L05} 5.4, {L06} 5, {L07} 6.5, {L08} 5.1, {L09} 5.2, {L10} 3.8];
+  Edges: [{L01,L05|L02,L03,L04,L06,L07,L08,L09,L10} 2.85, {L01,L04,L05|L02,L03,L06,L07,L08,L09,L10} 2.85, {L02,L03|L01,L04,L05,L06,L07,L08,L09,L10} 5.2, {L01,L02,L03,L04,L05|L06,L07,L08,L09,L10} 3.9, {L06,L07|L01,L02,L03,L04,L05,L08,L09,L10} 1.85, {L06,L07,L08|L01,L02,L03,L04,L05,L09,L10} 2.75, {L01,L02,L03,L04,L05,L06,L07,L08|L09,L10} 5.9];
+ 
+
+ ---------- 
+
+ 
+ WARNINGS PRODUCED BY CODE: 

@@ -1,0 +1,41 @@
+The first original tree is: 
+  Leaves: [{L01} 63.3, {L02} 58.7, {L03} 67.1, {L04} 4.9, {L05} 3.7, {L06} 4.3];
+  Edges: [{L02,L03|L01,L04,L05,L06} 61.8, {L04,L05|L01,L02,L03,L06} 5.1, {L02,L03,L04,L05|L01,L06} 4.7];
+The second original tree is: 
+  Leaves: [{L01} 5.2, {L02} 5.3, {L03} 3.6, {L07} 67.1];
+  Edges: [{L02,L03|L01,L07} 5.1];
+The complete leaf set is: [L01, L02, L03, L04, L05, L06, L07]
+ 
+
+ The Running Time is 2011 mili-seconds, which is: 0:00:00:02:011 
+The number of orthant pairs is 2835
+The mean number of iterations is 4.6038800705467455
+The distance found is 108.66735940474489
+A total of 2 tree pairs achieved this distance. 
+ This are: 
+ 
+
+ ---------- 
+For orthant pair (7, 46) the trees are 
+
+ T'_1:  Leaves: [{L01} 34.2500000003, {L02} 58.7, {L03} 67.1, {L04} 4.9, {L05} 3.7, {L06} 4.3, {L07} 67.1];
+  Edges: [{L02,L03|L01,L04,L05,L06,L07} 61.8, {L04,L05|L01,L02,L03,L06,L07} 5.1, {L02,L03,L04,L05|L01,L06,L07} 4.7, {L02,L03,L04,L05,L06|L01,L07} 29.0499999997];
+
+ T'_2:  Leaves: [{L01} 5.2, {L02} 5.3, {L03} 3.6, {L04} 4.9, {L05} 3.7, {L06} 4.3, {L07} 67.1];
+  Edges: [{L02,L03|L01,L04,L05,L06,L07} 5.1, {L01,L04,L05,L06|L02,L03,L07} 0, {L04,L05|L01,L02,L03,L06,L07} 5.1];
+ 
+
+ ---------- 
+For orthant pair (7, 250) the trees are 
+
+ T'_1:  Leaves: [{L01} 34.2500000024, {L02} 58.7, {L03} 67.1, {L04} 4.9, {L05} 3.7, {L06} 4.3, {L07} 67.1];
+  Edges: [{L02,L03|L01,L04,L05,L06,L07} 61.8, {L04,L05|L01,L02,L03,L06,L07} 5.1, {L02,L03,L04,L05|L01,L06,L07} 4.7, {L02,L03,L04,L05,L06|L01,L07} 29.0499999976];
+
+ T'_2:  Leaves: [{L01} 5.2, {L02} 5.3, {L03} 3.6, {L04} 4.9, {L05} 3.7, {L06} 4.3, {L07} 67.1];
+  Edges: [{L02,L03|L01,L04,L05,L06,L07} 5.1, {L01,L04,L05|L02,L03,L06,L07} 0, {L01,L02,L03,L04,L05|L06,L07} 0, {L04,L05|L01,L02,L03,L06,L07} 5.1];
+ 
+
+ ---------- 
+
+ 
+ WARNINGS PRODUCED BY CODE: 
