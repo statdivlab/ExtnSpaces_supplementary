@@ -1,38 +1,38 @@
 The first original tree is: 
-  Leaves: [{B} 4.02367, {C} 0.43157, {D} 4.38332, {E} 2.34093, {F} 5.02363, {G} 1.62213, {H} 1.99653];
-  Edges: [{B,D,E,F,G|C,H} 1.200902, {B,F|C,D,E,G,H} 0.46246, {E,G|B,C,D,F,H} 1.31758, {B,E,F,G|C,D,H} 0.0665063];
+  Leaves: [{B.fragilis} 4.38332, {Ca.Saccharibacteria} 2.34093, {F.nucleatum} 4.02367, {P.pelagia} 0.43157, {Parcubacteria} 1.62213, {S.hengshuiensis} 5.02363, {V.scophthalmi} 1.99653];
+  Edges: [{B.fragilis,Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|P.pelagia,V.scophthalmi} 1.200902, {F.nucleatum,S.hengshuiensis|B.fragilis,Ca.Saccharibacteria,P.pelagia,Parcubacteria,V.scophthalmi} 0.46246, {Ca.Saccharibacteria,Parcubacteria|B.fragilis,F.nucleatum,P.pelagia,S.hengshuiensis,V.scophthalmi} 1.31758, {Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|B.fragilis,P.pelagia,V.scophthalmi} 0.0665063];
 The second original tree is: 
-  Leaves: [{A} 1.704916, {B} 2.21918, {C} 0.837326, {D} 1.15289, {F} 1.47674, {H} 1.21905, {I} 1.81664, {J} 1.46539];
-  Edges: [{D,F|A,B,C,H,I,J} 0.11799, {C,H|A,B,D,F,I,J} 0.438612, {C,D,F,H|A,B,I,J} 0.447978, {B,C,D,F,H|A,I,J} 0.064471, {A,B,C,D,F,H|I,J} 0.800713];
-The complete leaf set is: [A, B, C, D, E, F, G, H, I, J]
+  Leaves: [{A.odontolyicus} 1.704916, {B.fragilis} 1.15289, {Ca.Lokiarchaeota} 1.81664, {Ca.Odinarchaeota} 1.46539, {F.nucleatum} 2.21918, {P.pelagia} 0.837326, {S.hengshuiensis} 1.47674, {V.scophthalmi} 1.21905];
+  Edges: [{B.fragilis,S.hengshuiensis|A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,P.pelagia,V.scophthalmi} 0.11799, {A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,S.hengshuiensis|P.pelagia,V.scophthalmi} 0.438612, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum|B.fragilis,P.pelagia,S.hengshuiensis,V.scophthalmi} 0.447978, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota|B.fragilis,F.nucleatum,P.pelagia,S.hengshuiensis,V.scophthalmi} 0.064471, {Ca.Lokiarchaeota,Ca.Odinarchaeota|A.odontolyicus,B.fragilis,F.nucleatum,P.pelagia,S.hengshuiensis,V.scophthalmi} 0.800713];
+The complete leaf set is: [A.odontolyicus, B.fragilis, Ca.Lokiarchaeota, Ca.Odinarchaeota, Ca.Saccharibacteria, F.nucleatum, P.pelagia, Parcubacteria, S.hengshuiensis, V.scophthalmi]
  
 
- The Running Time is 1268563 mili-seconds, which is: 0:00:21:08:563 
+ The Running Time is 1292656 mili-seconds, which is: 0:00:21:32:656 
 The number of orthant pairs is 418275
-The mean number of iterations is 7.192947223716218
+The mean number of iterations is 7.196366027135154
 The distance found is 4.233749130096056
 A total of 2 tree pairs achieved this distance. 
  This are: 
  
 
  ---------- 
-For orthant pair (1254, 74) the trees are 
+For orthant pair (1254, 164) the trees are 
 
- T'_1:  Leaves: [{A} 1.704916, {B} 4.02367, {C} 0.43157, {D} 2.8941602641, {E} 2.34093, {F} 2.9994287033, {G} 1.62213, {H} 1.99653, {I} 1.81664, {J} 1.46539];
-  Edges: [{C,H|A,B,D,E,F,G,I,J} 1.200902, {A,C,D,E,G,H|B,F,I,J} 0.46246, {E,G|A,B,C,D,F,H,I,J} 1.31758, {A,C,D,H|B,E,F,G,I,J} 0.0665063, {A,D|B,C,E,F,G,H,I,J} 1.4891597359, {A,B,C,D,E,G,H,I|F,J} 0.7219757023, {A,B,C,D,E,G,H|F,I,J} 1.3022255944];
+ T'_1:  Leaves: [{A.odontolyicus} 1.704916, {B.fragilis} 2.8941602641, {Ca.Lokiarchaeota} 1.81664, {Ca.Odinarchaeota} 1.46539, {Ca.Saccharibacteria} 2.34093, {F.nucleatum} 4.02367, {P.pelagia} 0.43157, {Parcubacteria} 1.62213, {S.hengshuiensis} 2.9994287033, {V.scophthalmi} 1.99653];
+  Edges: [{A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|P.pelagia,V.scophthalmi} 1.200902, {Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,S.hengshuiensis|A.odontolyicus,B.fragilis,Ca.Saccharibacteria,P.pelagia,Parcubacteria,V.scophthalmi} 0.46246, {Ca.Saccharibacteria,Parcubacteria|A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,P.pelagia,S.hengshuiensis,V.scophthalmi} 1.31758, {Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|A.odontolyicus,B.fragilis,P.pelagia,V.scophthalmi} 0.0665063, {A.odontolyicus,B.fragilis|Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 1.4891597359, {Ca.Odinarchaeota,S.hengshuiensis|A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,V.scophthalmi} 0.7219757023, {Ca.Lokiarchaeota,Ca.Odinarchaeota,S.hengshuiensis|A.odontolyicus,B.fragilis,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,V.scophthalmi} 1.3022255944];
 
- T'_2:  Leaves: [{A} 1.704916, {B} 2.21918, {C} 0.837326, {D} 1.15289, {E} 2.34093, {F} 1.47674, {G} 1.62213, {H} 1.21905, {I} 1.81664, {J} 1.46539];
-  Edges: [{D,F|A,B,C,E,G,H,I,J} 0.11799, {C,H|A,B,D,E,F,G,I,J} 0.438612, {C,D,F,H|A,B,E,G,I,J} 0.223989, {C,D,E,F,G,H|A,B,I,J} 0.223989, {B,C,D,E,F,G,H|A,I,J} 0.064471, {A,B,C,D,E,F,G,H|I,J} 0.800713, {E,G|A,B,C,D,F,H,I,J} 1.31758];
+ T'_2:  Leaves: [{A.odontolyicus} 1.704916, {B.fragilis} 1.15289, {Ca.Lokiarchaeota} 1.81664, {Ca.Odinarchaeota} 1.46539, {Ca.Saccharibacteria} 2.34093, {F.nucleatum} 2.21918, {P.pelagia} 0.837326, {Parcubacteria} 1.62213, {S.hengshuiensis} 1.47674, {V.scophthalmi} 1.21905];
+  Edges: [{B.fragilis,S.hengshuiensis|A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,V.scophthalmi} 0.11799, {A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|P.pelagia,V.scophthalmi} 0.438612, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum|B.fragilis,Ca.Saccharibacteria,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 0.223989, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria|B.fragilis,P.pelagia,S.hengshuiensis,V.scophthalmi} 0.223989, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota|B.fragilis,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 0.064471, {Ca.Lokiarchaeota,Ca.Odinarchaeota|A.odontolyicus,B.fragilis,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 0.800713, {Ca.Saccharibacteria,Parcubacteria|A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,P.pelagia,S.hengshuiensis,V.scophthalmi} 1.31758];
  
 
  ---------- 
-For orthant pair (1981, 74) the trees are 
+For orthant pair (1981, 164) the trees are 
 
- T'_1:  Leaves: [{A} 1.704916, {B} 4.02367, {C} 0.43157, {D} 2.8941602641, {E} 2.34093, {F} 2.9994287033, {G} 1.62213, {H} 1.99653, {I} 1.81664, {J} 1.46539];
-  Edges: [{C,H|A,B,D,E,F,G,I,J} 1.200902, {A,C,D,E,G,H|B,F,I,J} 0.46246, {E,G|A,B,C,D,F,H,I,J} 1.31758, {A,C,D,H|B,E,F,G,I,J} 0.0665063, {A,D|B,C,E,F,G,H,I,J} 1.4891597359, {F,I|A,B,C,D,E,G,H,J} 0.7219757023, {A,B,C,D,E,G,H|F,I,J} 1.3022255944];
+ T'_1:  Leaves: [{A.odontolyicus} 1.704916, {B.fragilis} 2.8941602641, {Ca.Lokiarchaeota} 1.81664, {Ca.Odinarchaeota} 1.46539, {Ca.Saccharibacteria} 2.34093, {F.nucleatum} 4.02367, {P.pelagia} 0.43157, {Parcubacteria} 1.62213, {S.hengshuiensis} 2.9994287033, {V.scophthalmi} 1.99653];
+  Edges: [{A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|P.pelagia,V.scophthalmi} 1.200902, {Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,S.hengshuiensis|A.odontolyicus,B.fragilis,Ca.Saccharibacteria,P.pelagia,Parcubacteria,V.scophthalmi} 0.46246, {Ca.Saccharibacteria,Parcubacteria|A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,P.pelagia,S.hengshuiensis,V.scophthalmi} 1.31758, {Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|A.odontolyicus,B.fragilis,P.pelagia,V.scophthalmi} 0.0665063, {A.odontolyicus,B.fragilis|Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 1.4891597359, {Ca.Lokiarchaeota,S.hengshuiensis|A.odontolyicus,B.fragilis,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,V.scophthalmi} 0.7219757023, {Ca.Lokiarchaeota,Ca.Odinarchaeota,S.hengshuiensis|A.odontolyicus,B.fragilis,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,V.scophthalmi} 1.3022255944];
 
- T'_2:  Leaves: [{A} 1.704916, {B} 2.21918, {C} 0.837326, {D} 1.15289, {E} 2.34093, {F} 1.47674, {G} 1.62213, {H} 1.21905, {I} 1.81664, {J} 1.46539];
-  Edges: [{D,F|A,B,C,E,G,H,I,J} 0.11799, {C,H|A,B,D,E,F,G,I,J} 0.438612, {C,D,F,H|A,B,E,G,I,J} 0.223989, {C,D,E,F,G,H|A,B,I,J} 0.223989, {B,C,D,E,F,G,H|A,I,J} 0.064471, {A,B,C,D,E,F,G,H|I,J} 0.800713, {E,G|A,B,C,D,F,H,I,J} 1.31758];
+ T'_2:  Leaves: [{A.odontolyicus} 1.704916, {B.fragilis} 1.15289, {Ca.Lokiarchaeota} 1.81664, {Ca.Odinarchaeota} 1.46539, {Ca.Saccharibacteria} 2.34093, {F.nucleatum} 2.21918, {P.pelagia} 0.837326, {Parcubacteria} 1.62213, {S.hengshuiensis} 1.47674, {V.scophthalmi} 1.21905];
+  Edges: [{B.fragilis,S.hengshuiensis|A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,V.scophthalmi} 0.11799, {A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria,S.hengshuiensis|P.pelagia,V.scophthalmi} 0.438612, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum|B.fragilis,Ca.Saccharibacteria,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 0.223989, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota,Ca.Saccharibacteria,F.nucleatum,Parcubacteria|B.fragilis,P.pelagia,S.hengshuiensis,V.scophthalmi} 0.223989, {A.odontolyicus,Ca.Lokiarchaeota,Ca.Odinarchaeota|B.fragilis,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 0.064471, {Ca.Lokiarchaeota,Ca.Odinarchaeota|A.odontolyicus,B.fragilis,Ca.Saccharibacteria,F.nucleatum,P.pelagia,Parcubacteria,S.hengshuiensis,V.scophthalmi} 0.800713, {Ca.Saccharibacteria,Parcubacteria|A.odontolyicus,B.fragilis,Ca.Lokiarchaeota,Ca.Odinarchaeota,F.nucleatum,P.pelagia,S.hengshuiensis,V.scophthalmi} 1.31758];
  
 
  ---------- 
